@@ -1,0 +1,92 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #2867FF;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stick{
+  width: 50px;
+  height: 400px;
+  background-color:#CD7518;
+  border-radius: 50px;
+}
+.ice-cream{
+  width: 200px;
+  height: 300px;
+  background-color: #FF49C5;
+  position: relative;
+  left: -85px;
+  top: -100px;
+  border-radius: 100px 100px 20px 20px;
+
+}
+.eye-1{
+  width: 30px;
+  height: 30px;
+  background-color: #F408A9;
+  border-radius: 50%;
+  position: relative;
+  top: 170px;
+  left: 30px;
+  animation: eye 2s infinite linear;
+}
+.eye-2{
+  width: 30px;
+  height: 30px;
+  background-color: #F408A9;
+  border-radius: 50%;
+  position: relative;
+  top: 140px;
+  left: 140px;
+  animation: eye 2s infinite linear;
+}
+@keyframes eye{
+  50%{
+    transform: rotatex(90deg)
+  }
+}
+
+.iris-1{
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+.iris-2{
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+.mouth{
+  width: 80px;
+  height: 40px;
+  background-color: #F408A9;
+  border-radius: 20px 20px 100px 100px;
+  position: relative;
+  top: 150px;
+  left: 65px;
+}
+.shine{
+  width: 50px;
+  height: 100px;
+  background-color: #FF7FD6;
+  border-radius: 100%;
+  position: relative;
+  top: -90px;
+  transform: rotate(50deg);
+  left: 40px;
+}
